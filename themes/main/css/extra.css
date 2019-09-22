@@ -605,10 +605,10 @@ body nav#top li:hover {
     display: none;
   }
   .header__submenu{
-    position: absolute;
+    position: absolute !important;
     left: 100% !important;
     top: 0 !important;
-    z-index: -1 !important;
+    z-index: 2 !important;
     padding-left: 10px; 
   }
   .header__submenu::before{

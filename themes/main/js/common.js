@@ -107,14 +107,14 @@ jQuery(document).ready(function ($) {
 
 
 	$('.mob-menu .menu-item-has-children .mob-menu-toggler').click(function (e) {
-		e.preventDefault();
+		// e.preventDefault();
 		e.stopPropagation();
 		$(this).siblings('.header__submenu').slideToggle();
 		$(this).toggleClass('active');
 	});
 
 	$('.menu-item').click(function (e) {
-		e.preventDefault();
+		// e.preventDefault();
 		e.stopPropagation();
 	});
 
@@ -167,5 +167,4 @@ jQuery(document).ready(function ($) {
 			}
 		},
 	})
-
 });
